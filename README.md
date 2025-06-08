@@ -7,3 +7,7 @@ How to create React project
 How to install tailwind CSS 
 1. Go to the tailwind website and go to the vite section then copy to the terminal 
 2. After that a vite.config.js folder will be created
+3. Then copy the import to index.css
+
+Tailwind Intellisense
+1. Add tailwind.config.js (No need to add anything in this because tailwind intellisense extension required tailwind config.js file but due to the update of tailwind css there is no need of tailwind.config.js)

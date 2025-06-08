@@ -1,0 +1,29 @@
+Go to https://github.com and log in.
+
+Click the "+" icon at the top-right → choose "New repository".
+
+Fill in the details:
+1. Repository name (e.g., my-project)
+2. Add an optional description
+3. Choose Public or Private
+4.❌ DO NOT initialize with README (leave it unchecked)
+Click "Create repository"
+
+step - 2 
+cd path/to/your/project-folder
+git init
+git remote add origin https://github.com/your-username/my-project.git
+git add .
+git commit -m "Initial commit"
+
+git branch -M main
+git push -u origin main
+
+To create a new branch -
+    git branch branch-name
+    git checkout branchName
+or we can do both - 
+    git checkout -b branch-name
+
+after doing everything 
+    git push -u origin branch-name
